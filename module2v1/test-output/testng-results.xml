@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41699" started-at="2018-07-06T07:07:09Z" finished-at="2018-07-06T07:07:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41699" started-at="2018-07-06T07:07:09Z" finished-at="2018-07-06T07:07:51Z">
+      <class name="com.epam.atm.module5.MailRuTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.atm.module5.MailRuTest@2eee9593]" name="startBrowser" is-config="true" duration-ms="9990" started-at="2018-07-06T10:07:09Z" description="Start browser" finished-at="2018-07-06T10:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method status="PASS" signature="mailRuLoginTest()[pri:0, instance:com.epam.atm.module5.MailRuTest@2eee9593]" name="mailRuLoginTest" duration-ms="9521" started-at="2018-07-06T10:07:19Z" description="Login to mail.ru" finished-at="2018-07-06T10:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailRuLoginTest -->
+        <test-method status="PASS" signature="mailRuMailCreationTest()[pri:0, instance:com.epam.atm.module5.MailRuTest@2eee9593]" name="mailRuMailCreationTest" duration-ms="6498" started-at="2018-07-06T10:07:29Z" description="Mail creation" depends-on-methods="com.epam.atm.module5.MailRuTest.mailRuLoginTest" finished-at="2018-07-06T10:07:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailRuMailCreationTest -->
+        <test-method status="PASS" signature="mailRuMailSendingTest()[pri:0, instance:com.epam.atm.module5.MailRuTest@2eee9593]" name="mailRuMailSendingTest" duration-ms="14737" started-at="2018-07-06T10:07:35Z" description="Mail sending" depends-on-methods="com.epam.atm.module5.MailRuTest.mailRuMailCreationTest" finished-at="2018-07-06T10:07:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailRuMailSendingTest -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.atm.module5.MailRuTest@2eee9593]" name="stopBrowser" is-config="true" duration-ms="941" started-at="2018-07-06T10:07:50Z" description="Stop Browser" finished-at="2018-07-06T10:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.atm.module5.MailRuTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

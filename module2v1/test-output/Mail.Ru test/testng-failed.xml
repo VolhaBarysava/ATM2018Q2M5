@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mail.Ru test]">
+  <test name="Login to mail.ru(failed)">
+    <classes>
+      <class name="com.epam.atm.module5.MailRuLoginTest">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="stopBrowser"/>
+        </methods>
+      </class> <!-- com.epam.atm.module5.MailRuLoginTest -->
+      <class name="com.epam.atm.module5.MailRuCreationMailTest">
+        <methods>
+          <include name="startBrowser"/>
+          <include name="stopBrowser"/>
+          <include name="mailRuMailCreationTest"/>
+        </methods>
+      </class> <!-- com.epam.atm.module5.MailRuCreationMailTest -->
+    </classes>
+  </test> <!-- Login to mail.ru(failed) -->
+</suite> <!-- Failed suite [Mail.Ru test] -->
